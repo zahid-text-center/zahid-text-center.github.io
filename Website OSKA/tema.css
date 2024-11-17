@@ -1,0 +1,232 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Regular.ttf);
+  }
+@font-face{
+    font-family: "Gotham Thin";
+    src: url(fonts/Gotham-Light.otf);
+    }
+
+@font-face{
+        font-family: "Gotham Black";
+        src: url(fonts/Gotham-Black.otf);
+    }
+
+@font-face{
+    font-family: "Brice";
+    src: url(fonts/Brice-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+        font-size: 16px;
+        font-family: "Montserrat", "Gotham Thin";
+        overflow-x: hidden;
+    }
+
+.jumbotron{
+        text-shadow: 0px 0px 20px rgb(255, 255, 255);
+        padding-bottom: 5rem;
+        font-family: "Brice";
+        padding-top: 20rem;
+        background-repeat: no-repeat;
+        background-attachment: fixed ;
+        background-size: cover;
+        background-position: center center;
+        transform: translate3d(0px 0px 0px);
+        padding-bottom: 28em;
+    }
+
+.container, .container-fluid {
+    max-width: 100%; /* Pastikan lebar tidak melebihi 100% */
+    overflow: hidden; /* Mencegah overflow */
+}
+
+.navbar .dropdown-menu {
+    position: absolute;
+    top: 100%; /* Aligns it right below the dropdown toggle */
+    left: 0; /* Aligns it with the dropdown link */
+    margin-top: 0.5rem; /* Adds some space for better visibility */
+    }
+    
+    .navbar .dropdown-toggle::after {
+    margin-left: 0.3rem; /* Adjust spacing after the arrow */
+    }
+      
+
+
+
+
+.navbar{
+        text-shadow: 2px 2px 5px black ;
+        width:100%;
+        height:60px;
+        display:flex;
+        background-color:transparent;
+        position:fixed;
+        transition:background-color 0.5s ease;
+        box-shadow: 0px 0px 10px black;
+    }
+
+.logo{
+        margin-right: 1em;
+    }
+
+.logo2:hover{
+    size: 10%;
+}
+
+.navbar-scrolled{
+        background-color: rgba(88, 0, 0, 0.568);
+        transition:background-color 0.5s ease;
+    }
+
+.lead{
+        font-family: montserrat;
+        font-style: italic;
+    }
+
+.a{
+        margin-top: 10px;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+        
+#tentang1{
+    font-size: 40px;
+    font-family: "Gotham Black";
+    margin:auto;
+    padding-top: 2em;
+
+}
+
+#tentang2{
+    font-size: 26px;
+    font-family: "Gotham Black";
+
+}
+
+.ket1{
+    font-size: 20px;
+    font-family: "Montserrat";
+    padding-top: 20px;
+}
+
+.deskripsi{
+    font-size: 16px;
+    font-family: "Gotham";
+    text-align: justify;
+    text-justify: inter-character;
+    margin: .5em 1em;
+}
+
+#infobtn{
+    background-color: transparent;
+}
+
+#infobtn:hover{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px maroon;
+    background-color: wheat;
+}
+
+#cardtentang{
+    box-shadow: 5px 5px 0px black;
+    background-color: wheat;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+::-webkit-scrollbar {
+width: 10px;
+height: 10px;
+box-shadow: 0px 0px 10px black;
+}
+
+::-webkit-scrollbar-thumb {
+background: maroon;
+}
+
+::-webkit-scrollbar-track {
+background: rgba(194, 78, 78, 0.432);
+}
+
+.visimisi{
+background-image: linear-gradient(to right,rgb(102, 4, 4), rgb(19, 19, 19));
+padding-top: 4em;
+padding-bottom: 2em;
+}
+
+.headvismis{
+font-family: "Gotham Black";
+font-size: 35px;
+font-family: "Brice";
+}
+
+.kepalastruktur{
+    background-color: rgb(143, 14, 14);
+    max-width: auto;
+    padding: 2.5em;
+    padding-top: 3em;
+    box-shadow: 0px 0px 10px black;
+}
+
+.struktur{
+    padding-bottom: 2em;
+}
+
+.identitas{
+    font-size: 16px;
+    padding-top: 5px;
+    text-shadow: 0px 0px 5px white;
+}
+
+#fotoanggota{
+    box-shadow: 6px 6px 0px black;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    outline: black solid 3px;
+}
+
+#fotoanggota:hover{
+    scale: 1.05;
+    box-shadow: 0px 0px 20px maroon;
+    
+}
+
+.gallery{
+    background-color: rgb(17, 17, 17);
+}
+
+.carousel-inner{
+    border-radius: 1em;
+    box-shadow: 0px 0px 10px white;
+    outline: rgb(255, 255, 255) solid 2px;
+}
+
+.carousel-caption{
+    text-shadow: 0px 0px 5px black;
+    color: wheat;
+}
+
+.penutup{
+    background-image: linear-gradient(maroon, rgb(15, 15, 15));
+    padding: 5em;
+    box-shadow: 0px 0px 10px maroon;
+}
+
+.kata-penutup{
+    font-family: "Brice";
+    font-size: 50px;
+    padding-top: .5em;
+}
+
+footer{
+    background-color: rgb(15, 15, 15);
+    padding-bottom: 2em;
+}

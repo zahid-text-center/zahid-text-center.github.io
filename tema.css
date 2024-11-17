@@ -21,14 +21,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: initial;
 
 }
 
 body{
         font-size: 16px;
         font-family: "Montserrat", "Gotham Thin";
-        overflow-x: hidden;
     }
 
 .jumbotron{
@@ -62,6 +60,12 @@ body{
         box-shadow: 0px 0px 10px black;
     }
 
+#shadow{
+    text-shadow: 2px 2px 0px black, 4px 4px 4px black;
+    color: rgb(241, 179, 23);
+    
+}
+
 .logo{
         margin-right: 1em;
     }
@@ -79,6 +83,7 @@ body{
 .a{
         margin-top: 10px;
         margin-left: 10em;
+        margin-right: 10em;
     }
         
 #tentang1{

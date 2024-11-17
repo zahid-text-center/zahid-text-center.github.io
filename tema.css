@@ -21,6 +21,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: initial;
+
 }
 
 body{
@@ -42,26 +44,13 @@ body{
         padding-bottom: 28em;
     }
 
-.container, .container-fluid {
-    max-width: 100%; /* Pastikan lebar tidak melebihi 100% */
-    overflow: hidden; /* Mencegah overflow */
-}
 
+    
 .navbar .dropdown-menu {
     position: absolute;
-    top: 100%; /* Aligns it right below the dropdown toggle */
-    left: 0; /* Aligns it with the dropdown link */
     margin-top: 0.5rem; /* Adds some space for better visibility */
     }
     
-    .navbar .dropdown-toggle::after {
-    margin-left: 0.3rem; /* Adjust spacing after the arrow */
-    }
-      
-
-
-
-
 .navbar{
         text-shadow: 2px 2px 5px black ;
         width:100%;
@@ -77,10 +66,6 @@ body{
         margin-right: 1em;
     }
 
-.logo2:hover{
-    size: 10%;
-}
-
 .navbar-scrolled{
         background-color: rgba(88, 0, 0, 0.568);
         transition:background-color 0.5s ease;
@@ -94,7 +79,6 @@ body{
 .a{
         margin-top: 10px;
         margin-left: 10em;
-        margin-right: 10em;
     }
         
 #tentang1{

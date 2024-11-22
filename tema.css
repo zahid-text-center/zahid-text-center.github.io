@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "SF";
+    src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face {
+    font-family: "Gotham Black";
+    src: url(fonts/GOTHAM-BLACK.OTF);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/MONTSERRAT-REGULAR.TTF);
+}
+
+@font-face {
+    font-family: "Brice";
+    src: url(fonts/BRICE-REGULAR.OTF);
+}
+
+body{
+    background-color: #273036;
+    font-family: "SF";
+}
+
+nav{
+    background-color: maroon;
+    box-shadow: 0px 0px 5px black;
+    font-family: "Brice";
+}
+
+.jumbotron{
+    background-color: #f5deb3;
+}
+
+.display-4{
+    padding-top: .3em;
+    font-family: "Brice";
+    letter-spacing: -.3rem;
+    text-shadow: 3px 3px 0px #ff0000;
+}
+
+.lead{
+    font-family: "SF";
+}
+
+.rounded-circle{
+    box-shadow: 1px 0px 10px black;
+}
+
+h2{
+    padding-top: 1em;
+    font-family: "Brice","Gotham Black";
+    font-weight: bolder;
+    font-size: 3em;
+    color: yellow;
+    text-shadow: 3px 3px 0px red, 6px 6px 0px black;
+}
+
+.About{
+    background-color: #273036;
+}
+
+.col-5{
+    font-family: "SF";
+    padding-top: 1em;
+    color: yell;
+}
+
+#projects{
+    background-color: wheat;
+
+}
+
+.h2projects{
+    color: red;
+    text-shadow: 3px 3px 0px yellow, 6px 6px 0px black;
+}
+
+.card{
+    box-shadow: 5px 5px 0px black;
+    margin-bottom: 3em;
+}
+.card:hover{
+    scale: 1.05;
+    box-shadow: 0px 0px 10px red;
+}
+
+.card-text{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h3{
+    font-family: "SF";
+    font-weight: bold;
+}
+
+#linkthroughimage:hover{
+    scale: 1.1;
+    outline: 10px solid #ff000046;
+}
+
+#contact{
+    background-color: maroon;
+    padding-top: 2em;
+    padding: 2em;
+    padding-bottom: 3em;
+    font-family: "SF";
+    border-radius: 1em;
+    box-shadow: 6px 6px 0px yellow, 10px 10px 0px red;
+    outline: 3px solid black;
+    margin: 1em 1em;
+}
+
+#kirim{
+    background-color: wheat;
+}
+
+footer{
+    box-shadow: 0px 0px 10px black;
+    margin-top: 2em;
+    padding-top: 2em;
+    background-image: linear-gradient(to right,maroon,black);
+    padding-bottom: 1em;
+    font-family: "SF";
+    outline: 2px solid yellow;
+}
+
+a{
+    font-family: "SF";
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+
+.dropdown{
+    background-color: transparent;
+}
+
+.deskripsi-tentang{
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-word;
+}

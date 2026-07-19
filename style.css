@@ -105,7 +105,7 @@
   .hero h1 .accent-text{color:var(--accent);}
   .hero-sub{
     margin-top:28px;
-    font-size:clamp(16px,2vw,20px);
+    font-size:clamp(12px,2vw,18px);
     color:var(--muted);
     max-width:520px;
   }
@@ -153,7 +153,9 @@
   .about-grid{
     display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;
   }
-  .about-grid p{color:var(--muted);font-size:16px;max-width:520px;}
+  .about-grid p{color:var(--muted);font-size:clamp(14px, 1.6vw, 16px);
+  line-height:1.7;
+  max-width:60ch;}
   .about-photo{
     aspect-ratio:4/5;background:var(--surface);border:1px solid var(--line);
     position:relative;overflow:hidden;
@@ -192,7 +194,7 @@
   max-width:100%;
   overflow-x:auto;
   -webkit-overflow-scrolling:touch;
-    margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
   }
   
   @media(max-width:760px){.about-grid{grid-template-columns:1fr;gap:40px;}.about-grid{display:flex;flex-direction:column-reverse;}}
@@ -200,7 +202,7 @@
   .about-linkedin{
     transform:scale(0.85);
     transform-origin:left top;
-    
+   
   }
 }
 
@@ -308,7 +310,7 @@
   .contact-big a:hover{color:var(--accent);}
   .contact-links{display:flex;gap:28px;flex-wrap:wrap;margin-top:20px;}
   .contact-links a{
-    font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--muted);
+    font-family:'JetBrains Mono',monospace;font-size:clamp(12px, 1.6vw, 16px);;color:var(--muted);
     display:flex;align-items:center;gap:8px;transition:color .2s;
   }
   .contact-links a:hover{color:var(--text);}
